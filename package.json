@@ -1,0 +1,35 @@
+{
+  "name": "postcss-wcag-contrast-linter",
+  "version": "0.1.0",
+  "description": "PostCSS linter for ensuring your colors meet WCAG 2.1 AA contrast requirements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "uvu tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cadomac/postcss-wcag-contrast-linter.git"
+  },
+  "keywords": [
+    "css",
+    "WCAG",
+    "accessibility",
+    "color",
+    "colors",
+    "postcss",
+    "contrast",
+    "linter"
+  ],
+  "author": {
+    "name": "Cameron MacDonald",
+    "url": "https://github.com/cadomac"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "postcss": "^8.0.0",
+    "uvu": "^0.5.6"
+  },
+  "peerDependencies": {
+    "postcss": "^8.0.0"
+  }
+}
